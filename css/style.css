@@ -6330,6 +6330,37 @@ a.close.disabled {
   text-align: center;
 }
 
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container i {
+  font-size: 1.5rem; /* Adjust the size of the icons */
+  vertical-align: middle; /* Ensures the icon is centered with the text */
+}
+
+.contact-info-container p {
+  font-size: larger;
+  margin: 0;
+}
+
+
+
+
 @keyframes spinner-border {
   to {
     transform: rotate(360deg);
