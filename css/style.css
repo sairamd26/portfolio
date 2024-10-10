@@ -528,6 +528,8 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  object-fit: cover;
+  margin-top: 10px;
 }
 
 .img-thumbnail {
@@ -5832,6 +5834,17 @@ a.close.disabled {
   height: 50px;
   overflow: scroll;
 }
+
+.card{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+
 
 @media (min-width: 576px) {
   .modal-dialog {
